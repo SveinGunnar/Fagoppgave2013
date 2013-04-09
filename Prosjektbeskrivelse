@@ -1,0 +1,15 @@
+Hva vi skal lage.
+En simpel plattformer med matematisk generert bakke, parallaxing og (relativt) moderne OpenGL rendering backend. 
+Vi kommer til å lage et spill som ligner på Super Mario Bros 1, det kommer til å være enkelt gameplay som hopping innvolvert, men ikke noe avansert.
+Vi har ennå ikke bestemt oss om hvordan man vinner eller taper i spillet, våre favoritter til nå er tidspress og feller for å tape. Målet for spillet er å komme seg lengst mulig.
+
+(Merk: OpenGL 3.x har svært høyt støttenivå på moderne laptops og computere, mens 4.x vil være for top-end GPUer ei stund fremover.) 
+
+Plattform-uavhengig: Skal fungere på Windows, Linux, OS X
+Benyttelse av templates, state machines, singletons, funksjons-overloading, operator-overloading og arv.
+
+Avgrensing av skop(hva skal dere ikke)
+Vi skal ikke lage komplisert gameplay, bruke tid på grafikk utenfor enkle triks som ikke tar for mye tid fra programmeringen. Vi skal ikke ha lyd. Vi skal ikke ha menyer, men mulighet for utvidelse via state-machine.
+
+Tydelige designmål(Hva er fokus - skal det være utvidbart? skalerbart? Effektivt? Integrerbart)
+Vi kommer til å ha noe utvidbarhet, men kommer til å fokusere på god programmeringsstil og utnyttelse av c++.
