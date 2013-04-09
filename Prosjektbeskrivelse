@@ -1,3 +1,6 @@
+s181086 - Svein Gunnar Fagerheim
+s181087 - Alf Andre Walla
+
 Hva vi skal lage.
 En simpel plattformer med matematisk generert bakke, parallaxing og (relativt) moderne OpenGL rendering backend. 
 Vi kommer til å lage et spill som ligner på Super Mario Bros 1, det kommer til å være enkelt gameplay som hopping innvolvert, men ikke noe avansert.
