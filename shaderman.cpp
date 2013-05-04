@@ -1,6 +1,10 @@
-/*
-
-*/
+/**
+ *	Alf-Andre Walla
+ *	s181087
+ *	
+ *	Shader manager implementation
+ *	
+**/
 
 #include "shaderman.h"
 #include <string>

@@ -1,5 +1,9 @@
 /**
- *
+ *	Alf-Andre Walla
+ *	s181087
+ *	
+ *	Shader definition
+ *	
 **/
 
 #ifndef __SHADER_H

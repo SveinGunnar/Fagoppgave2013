@@ -1,6 +1,10 @@
-/*
-
-*/
+/**
+ *	Alf-Andre Walla
+ *	s181087
+ *	
+ *	Shader manager definition
+ *	
+**/
 
 #ifndef __SHADERMAN_H
 #define __SHADERMAN_H

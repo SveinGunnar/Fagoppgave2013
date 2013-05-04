@@ -1,6 +1,10 @@
-/*
-
-*/
+/**
+ *	Alf-Andre Walla
+ *	s181087
+ *	
+ *	Sprite definition
+ *	
+**/
 
 #ifndef __SPRITE_H
 #define __SPRITE_H

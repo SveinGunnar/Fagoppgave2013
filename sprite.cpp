@@ -1,6 +1,10 @@
-/*
-
-*/
+/**
+ *	Alf-Andre Walla
+ *	s181087
+ *	
+ *	Sprite implementation
+ *	
+**/
 
 #include "sprite.h"
 #include "opengl.h"
