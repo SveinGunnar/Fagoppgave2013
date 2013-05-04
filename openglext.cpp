@@ -1,0 +1,61 @@
+/*
+
+*/
+
+#include "opengl.h"
+
+namespace platformer
+{
+	#define opengl_ext GLapi
+
+	// openGL extensions
+	opengl_ext void (*glGenerateMipmap)(GLenum target);
+
+	// vertex buffer objects
+	opengl_ext void (*glGenBuffers)(GLsizei n, GLuint* ids);
+	opengl_ext void (*glBindBuffer)(GLenum target, GLuint id);
+	opengl_ext void (*glBufferData)(GLenum target, GLint size, GLvoid* data, GLenum usage);
+	opengl_ext void (*glBufferSubData)(GLenum target, GLint offset, GLsizei size, GLvoid* data);
+	opengl_ext void (*glDeleteBuffers)(GLsizei n, GLuint* ids);
+
+	opengl_ext void (*glActiveTexture)(GLenum textureunit);
+	opengl_ext void (*glTexImage3D)(GLenum target, GLint level, GLint internalFormat, GLsizei width, GLsizei height, GLsizei depth, GLint border, GLenum format, GLenum type, GLvoid* data);
+
+	// shaders
+	opengl_ext GLuint (*glCreateProgram)();
+	opengl_ext void (*glDeleteProgram)(GLuint program);
+	opengl_ext GLuint (*glCreateShader)(GLenum shadertype);
+	opengl_ext void (*glDeleteShader)(GLuint shader);
+	opengl_ext void (*glCompileShader)(GLuint shader);
+	opengl_ext void (*glAttachShader)(GLuint program, GLuint shader);
+	opengl_ext void (*glDetachShader)(GLuint program, GLuint shader);
+	opengl_ext void (*glShaderSource)(GLuint shader, GLsizei first, GLchar** source_string, GLint* length);
+	opengl_ext void (*glGetShaderInfoLog)(GLuint shader, GLsizei maxlen, GLsizei* length, GLchar* source_string);
+	opengl_ext void (*glGetShaderiv)(GLuint shader, GLenum flag, GLint* value);
+	opengl_ext void (*glLinkProgram)(GLuint program);
+	opengl_ext void (*glUseProgram)(GLuint program);
+	// shader uniforms
+	opengl_ext GLint (*glGetUniformLocation)(GLuint program, GLchar* variable);
+	opengl_ext void (*glUniform1i)(GLint location, GLint value);
+	opengl_ext void (*glUniform2i)(GLint location, GLint v1, GLint v2);
+	opengl_ext void (*glUniform3i)(GLint location, GLint v1, GLint v2, GLint v3);
+	opengl_ext void (*glUniform1f)(GLint location, GLfloat value);
+	opengl_ext void (*glUniform2f)(GLint location, GLfloat v1, GLfloat v2);
+	opengl_ext void (*glUniform3f)(GLint location, GLfloat v1, GLfloat v2, GLfloat v3);
+	opengl_ext void (*glUniform4f)(GLint location, GLfloat v1, GLfloat v2, GLfloat v3, GLfloat v4);
+	opengl_ext void (*glUniform3fv)(GLint location, GLsizei instances, GLfloat* first);
+	opengl_ext void (*glUniform4fv)(GLint location, GLsizei instances, GLfloat* first);
+
+	opengl_ext void (*glUniformMatrix4fv)(GLint location, GLsizei count, GLboolean transpose, GLfloat* first);
+
+	// vertex arrays
+	opengl_ext void (*glGenVertexArrays)(GLsizei count, GLuint* ids);
+	opengl_ext void (*glBindVertexArray)(GLuint target);
+	opengl_ext void (*glDeleteVertexArrays)(GLsizei count, GLuint* ids);
+	// vertex attrib arrays
+	opengl_ext void (*glDisableVertexAttribArray)(GLuint index);
+	opengl_ext void (*glEnableVertexAttribArray)(GLuint index);
+	opengl_ext void (*glVertexAttribPointer)(GLuint index, GLsizei size, GLenum type, GLboolean normalized, GLsizei stride, GLvoid* dataoffset);
+	opengl_ext void (*glBindAttribLocation)(GLuint program, GLuint index, GLchar* attrib);
+	
+}

@@ -1,0 +1,33 @@
+TODO:
+
+[x] throw exceptions for errors, instead of if() tests down the stack chain
+
+[x] basic music player
+
+[x] input / keyboard, simple worldman
+
+[x] bitmap.parse2D, parsing 2d bitmap into UxV = W tiles
+
+[x] construct basic tileset
+
+[x] construct basic texture array shader
+
+[x] render basic landscape
+
+[x] basic land generator
+
+[x] sound fx system, (only need) one playback stream per clip
+
+[x] music gapless crossfade between terrains
+
+[ ] underground world generator
+
+[ ] warp between over / under world, use same (vertical flip) algorithm for pipe network
+
+FEATURES:
+
+1. control screen sprites, relative to start of world
+
+2. 
+
+3. 
