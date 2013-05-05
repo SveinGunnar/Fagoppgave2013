@@ -33,7 +33,7 @@ namespace platformer
 		GLuint shader;
 		shader_uniforms_t uniforms;
 		
-		void printShaderStatus(GLuint, bool);
+		void printShaderStatus(GLuint);
 		
 		// keep track of last bound shader
 		static GLuint lastShader;

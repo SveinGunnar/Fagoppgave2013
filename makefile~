@@ -7,4 +7,3 @@ LOUT   = -o game
 
 all:
 	$(CC) $(CFLAGS) $(CMODS) $(LFLAGS) $(LOUT)
-
