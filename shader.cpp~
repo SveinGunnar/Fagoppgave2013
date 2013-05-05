@@ -51,7 +51,7 @@ namespace platformer
 		            t += (char)c;
 	        }
 	    }
-	} // safeGetline
+	} // safeGetLine
 	
 	void Shader::printShaderStatus(GLuint shader, bool prog)
 	{

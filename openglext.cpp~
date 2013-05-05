@@ -33,7 +33,6 @@ namespace platformer
 	opengl_ext void (*glGetShaderInfoLog)(GLuint shader, GLsizei maxlen, GLsizei* length, GLchar* source_string);
 	opengl_ext void (*glGetShaderiv)(GLuint shader, GLenum flag, GLint* value);
 	opengl_ext void (*glGetProgramiv)(GLuint program, GLenum flag, GLint* value);
-	opengl_ext void (*glGetProgramInfoLog)(GLuint program, GLsizei maxlen, GLsizei* length, GLchar* source_string);
 	opengl_ext void (*glLinkProgram)(GLuint program);
 	opengl_ext void (*glUseProgram)(GLuint program);
 	// shader uniforms

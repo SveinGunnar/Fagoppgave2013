@@ -98,7 +98,6 @@ namespace platformer
 		glAttachShader          = (void(GLapi*)(GLuint, GLuint))glfwGetProcAddress("glAttachShader");
 		glDetachShader          = (void(GLapi*)(GLuint, GLuint))glfwGetProcAddress("glDetachShader");
 		glGetProgramiv			= (void(GLapi*)(GLuint, GLenum, GLint*))glfwGetProcAddress("glGetProgramiv");
-		glGetProgramInfoLog		= (void(GLapi*)(GLuint, GLsizei, GLsizei*, GLchar*))glfwGetProcAddress("glGetProgramInfoLog");
 		glLinkProgram			= (void(GLapi*)(GLuint))glfwGetProcAddress("glLinkProgram");
 		glUseProgram			= (void(GLapi*)(GLuint))glfwGetProcAddress("glUseProgram");
 		

@@ -299,7 +299,6 @@ opengl_ext_decl void (*glGetShaderInfoLog)(GLuint shader, GLsizei maxlen, GLsize
 opengl_ext_decl void (*glGetShaderiv)(GLuint shader, GLenum flag, GLint* value);
 opengl_ext_decl void (*glLinkProgram)(GLuint program);
 opengl_ext_decl void (*glGetProgramiv)(GLuint program, GLenum flag, GLint* value);
-opengl_ext_decl void (*glGetProgramInfoLog)(GLuint program, GLsizei maxlen, GLsizei* length, GLchar* source_string);
 opengl_ext_decl void (*glUseProgram)(GLuint program);
 // shader uniforms
 opengl_ext_decl GLint (*glGetUniformLocation)(GLuint program, GLchar* variable);
