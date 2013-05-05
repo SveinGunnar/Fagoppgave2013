@@ -9,7 +9,7 @@
 **/
 
 #include "gameman.h"
-#include "glfw.h"
+#include "GL/glfw.h"
 #include "input.h"
 #include "physics.h"
 

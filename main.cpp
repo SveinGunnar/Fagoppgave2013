@@ -16,7 +16,7 @@
 #include "config.h"
 #include <string>
 
-#include "glfw.h"
+#include "GL/glfw.h"
 #include "renderman.h"
 #include "soundman.h"
 #include "gameman.h"
